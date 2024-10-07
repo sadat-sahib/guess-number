@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    background: black;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content:space-around;
+    align-items:center ;
+    padding: 20px;
+}
+.first .again{
+    height: 2rem;
+    width: 3rem;
+}
+.second
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.inner
+{
+    height: 3rem;
+    width: 4rem;
+    margin: 20px;
+    
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.third .inner p{
+    color: violet;
+    font-size: 35px;
+    
+}
+.fourth
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+ .left{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding: 15px;
+    
+    
+}
+.left .guss{
+    width: 6rem;
+    height: 3rem;
+    margin-bottom: 20px;
+    font-size: large;
+}
+.left .cheek{
+    height: 2rem;
+    width: 3rem;
+}
+.right p{
+    padding: 5px;
+
+}
